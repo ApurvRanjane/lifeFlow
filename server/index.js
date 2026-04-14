@@ -25,7 +25,7 @@ app.get('/api/health', (req, res) => {
 });
 
 // ── Routes (will add in Week 2+) ───────────────────────
-// app.use('/api/auth', require('./routes/auth'));
+app.use('/api/auth', require('./routes/auth'));
 // app.use('/api/donors', require('./routes/donor'));
 // app.use('/api/inventory', require('./routes/inventory'));
 // app.use('/api/requests', require('./routes/request'));
